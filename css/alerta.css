@@ -1,0 +1,72 @@
+.info{
+    margin-top: 50px;
+    background: #404040;
+    color: #fff;
+    text-align: center
+}
+.titulo__info {
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    
+}
+.info .contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 30px;
+}
+.info-consumo{
+    margin: 40px;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border :7px solid #fff;
+}
+.info-consumo h4{
+    margin-top: 50px;
+    font-size: 45px
+}
+#agua{
+    color:rgb(224, 34, 0);
+    border :7px solid rgb(224, 34, 0);
+}
+#sodio{
+    color:rgb(11, 212, 11);
+    border :7px solid rgb(11, 212, 11);
+}
+#fosforo{
+    color:rgb(131, 247, 16);
+    border :7px solid rgb(131, 247, 16);
+}
+#potasio{
+    color:rgb(247, 68, 3);
+    border :7px solid rgb(247, 68, 3);
+}
+#kcal{
+    color:rgb(247, 167, 16);
+    border :7px solid rgb(247, 167, 16);
+}
+#proteina{
+    color:rgb(18, 150, 1);
+    border :7px solid rgb(18, 150, 1)
+}
+.icon-doctor{
+    position: fixed;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    bottom:10px;
+    right: 10px;
+    background: #ed0000;
+    color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 0px 1px 10px rgba(0,0,0.3);
+    z-index: 100;
+    text-decoration: none;
+}
+.icon-doctor:active{
+    transform: scale(1.05);
+}

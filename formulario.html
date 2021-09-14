@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>NutriDialisis</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="css/fontello.css">
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+     <header>
+         <div class="contenedor">
+            <a href="index.html"><img src="img/logo.png" class="logo" alt="Logo de NutriDialisis" title="Logo" ></a>
+             <h1>NutriDialisis</h1>
+             <input type="checkbox" id="menu-bar">
+             <label class="icon-menu" for="menu-bar" title="menu"></label>
+             <nav class="menu">
+                 <a href="index.html">Inicio</a>
+                 <a href="formulario.html">Registrarse</a>
+                 <a href="">Nosotros</a>
+                 <a href="">Contacto</a>
+             </nav>
+         </div>
+     </header>
+<main>
+     <div class="formulario">
+         <form action="" class="form-register">
+             <h2 class="form__titulo">Formulario de registro</h2>
+             <div class="contenedor-inputs">
+                 <input type="text" placeholder="Nombres" class="input-48"  required>
+                 <input type="text" placeholder="Apellidos" class="input-48"  required>
+                 <input type="date" placeholder="Fecha de nacimiento" class="input-100"  required>
+                 <select name="sexo" >
+                     <option value="">Sexo</option>
+                     <option value="">Masculino</option>
+                     <option value="">Femenino</option>
+                 </select>
+                 <input type="text" placeholder="Peso en KG" class="input-48" required>
+                 <input type="text" placeholder="Altura en CM" class="input-48" required>
+                 <select name="" id="">
+                     <option value="">Situacion clinica</option>
+                     <option value="">ERCA</option>
+                     <option value="">Hemodialisis</option>
+                     <option value="">Dialisis peritoneal</option>
+                     <option value="">Transplantado</option>
+                 </select>
+                 <select name="" id="">
+                     <option value="">Diabetico</option>
+                     <option value="">SI</option>
+                     <option value="">NO</option>
+                 </select>
+                 <select name="" id="">
+                     <option value="">Hipertenso</option>
+                     <option value="">SI</option>
+                     <option value="">NO</option>
+                 </select>
+                 <input type="text" placeholder="Consumo diario de agua en milimetros" class="input-100" required>
+                 <input type="email" placeholder="Correo" class="input-100" required>
+                 <input type="password" placeholder="Contraseña" class="input-100" required>
+                 <input type="submit" value="Registrar" class="btn-enviar" required>
+                 <p class="form__link">¿Ya tienes una cuenta? <a href="#">Ingresa aqui</a></p>
+             </div>
+         </form>
+     </div>
+</main>
+     <footer>
+         <div class="contenedor">
+             <p class="copy">Nutridialisis &copy; 2021</p>
+           <div class="sociales">
+             <a class="icon-facebook" href="#" title="facebook"></a>
+             <a class="icon-instagram" href="#" title="instagram"></a>
+             <a class="icon-mail" href="#" title="email"></a>
+             <a href="#" class="icon-whatsapp" title="whatsapp"></a>
+           </div>
+         </div>
+     </footer>
+   
+</body>
+</html>

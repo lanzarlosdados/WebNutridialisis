@@ -1,0 +1,33 @@
+#info_herramientas .contenedor{
+    display: flex; 
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#info_herramientas article{
+    width: 310px;
+    margin: 15px;
+    background: rgb(65, 143, 167);
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: 7px solid ;
+}
+#info_herramientas img{
+    width: 100%;
+    max-width: 450px;
+    text-align: center;
+    border-radius: 2%;
+}
+#info_herramientas h2{
+    font-size: 25px;
+    padding: 15px;
+    color: #fff;
+}
+#info_herramientas p{
+  padding: 10px;
+    font-size: 18px;
+    color: #fff;
+}
+
+
+
